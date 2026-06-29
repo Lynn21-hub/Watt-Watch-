@@ -1,0 +1,9 @@
+# How to Start 
+
+To run the container run the following command in the root directory of the project : 
+
+docker compose -v up -d 
+
+To stop the container run the following command 
+
+docker compose down 
