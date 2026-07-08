@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DeviceServiceApplication",
+            "request": "launch",
+            "mainClass": "com.example.device_service.DeviceServiceApplication",
+            "projectName": "device-service"
+        },
+        {
+            "type": "java",
             "name": "UserserviceApplication",
             "request": "launch",
             "mainClass": "com.wattwatch.userservice.UserserviceApplication",
