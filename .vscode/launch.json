@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IngestionServiceApplication",
+            "request": "launch",
+            "mainClass": "com.example.ingestion_service.IngestionServiceApplication",
+            "projectName": "ingestion-service"
+        },
+        {
+            "type": "java",
             "name": "DeviceServiceApplication",
             "request": "launch",
             "mainClass": "com.example.device_service.DeviceServiceApplication",
