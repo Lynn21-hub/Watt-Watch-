@@ -31,7 +31,7 @@ public class ContiniousDataSimulator implements CommandLineRunner {
         log.info("Starting continuous data simulation...");
 
     }
-    @Scheduled(fixedRateString = "${simulation.interval}")
+    //@Scheduled(fixedRateString = "${simulation.interval}")
     public void sendMockData(){
         for(int i = 0; i < reqPerInterval; i++){
             EnergyUsageDto dto = EnergyUsageDto.builder()
